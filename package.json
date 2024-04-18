@@ -1,0 +1,28 @@
+{
+  "name": "multimedia",
+  "version": "1.0.0",
+  "description": "Media player for NUC Multimedia applications",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.4.4",
+    "diskusage": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "mpv-json-ipc": "^1.0.1",
+    "node-fetch": "^3.3.2",
+    "shell-quote": "^1.8.1",
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}

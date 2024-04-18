@@ -1,0 +1,100 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.screens-logo {
+    height: 18vh;
+    width: 50%;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background-image: url('../img/Multimedia.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    margin-top: 3em;
+}
+
+.table th, .table td {
+    border-top: none;
+    padding: 0.3rem;
+}
+
+.network-form-input, .network-form-input:focus {
+    background-color: black;
+    border: 0;
+    border-bottom: 2px solid #6c757d;
+    border-radius: 0;
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+.network-form-input:disabled {
+    background-color: #6c757d;
+}
+
+.icon-field {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 0.8em;
+    right: 1em;
+    cursor: pointer;
+}
+
+.stored-connections-container {
+    height: 30vh;
+    overflow: auto;
+}
+
+.stored-connections {
+    font-size: 1.2rem;
+}
+
+.stored-connections > li p {
+    display: inline-block;
+}
+
+.stored-connections > li span:nth-last-child(-n+2) {
+    cursor: pointer;
+}
+
+.spinner {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.keyboard-container {
+    width: 100%;
+    max-width: 850px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+
+.dropdown-menu {
+    background-color: black !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    color: black !important;
+}
